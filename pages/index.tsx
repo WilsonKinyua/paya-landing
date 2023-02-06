@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-
+import Image from "next/image";
 export default function Home() {
   return (
     <>
@@ -48,7 +48,13 @@ export default function Home() {
         <nav className="navbar navbar-expand-lg">
           <div className="container">
             <Link className="navbar-brand" href="/">
-              <img src="/logo.png" alt="Logo" />
+              <Image
+                height="40"
+                width="90"
+                layout="responsive"
+                src="/logo.png"
+                alt="Logo"
+              />
             </Link>
             {/* <button
               className="navbar-toggler"
@@ -99,7 +105,13 @@ export default function Home() {
             </div>
             <div className="col-md-6">
               <div className="img-wrapper mt-3">
-                <img src="/dashboard.png" alt="Landing dashboard" />
+                <Image
+                  height="40"
+                  width="90"
+                  layout="responsive"
+                  src="/dashboard.png"
+                  alt="Landing dashboard"
+                />
               </div>
             </div>
           </div>
@@ -110,7 +122,7 @@ export default function Home() {
           <div className="row">
             <div className="col-md-3">
               <div className="icon">
-                <img src="/icons/1.png" alt="Icon 1" />
+                <Image height="40" width="40" src="/icons/1.png" alt="Icon 1" />
               </div>
               <div className="content">
                 <h6>Easy access</h6>
@@ -122,7 +134,7 @@ export default function Home() {
             </div>
             <div className="col-md-3">
               <div className="icon">
-                <img src="/icons/2.png" alt="Icon 2" />
+                <Image height="40" width="40" src="/icons/2.png" alt="Icon 2" />
               </div>
               <div className="content">
                 <h6>Trustful</h6>
@@ -134,7 +146,7 @@ export default function Home() {
             </div>
             <div className="col-md-3">
               <div className="icon">
-                <img src="/icons/3.png" alt="Icon 3" />
+                <Image height="40" width="40" src="/icons/3.png" alt="Icon 3" />
               </div>
               <div className="content">
                 <h6>No fees</h6>
@@ -145,7 +157,7 @@ export default function Home() {
             </div>
             <div className="col-md-3">
               <div className="icon">
-                <img src="/icons/4.png" alt="Icon 4" />
+                <Image height="40" width="40" src="/icons/4.png" alt="Icon 4" />
               </div>
               <div className="content">
                 <h6>Join in minutes</h6>
@@ -171,7 +183,12 @@ export default function Home() {
               <div className="card">
                 <div className="card-body">
                   <h5 className="card-title">Paya Checking Account</h5>
-                  <img src="/cardpos.png" alt="cardpos" />
+                  <Image
+                    height="40"
+                    width="40"
+                    src="/cardpos.png"
+                    alt="cardpos"
+                  />
                   <p>
                     Use your checking account to make everyday payments, and
                     save money on transfer fees.
