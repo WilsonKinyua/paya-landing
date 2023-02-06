@@ -8,12 +8,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <title>
-          Paya - To improve people's lives through low interest financing
+          Paya - To improve people&apos;s lives through low interest financing
           services.
         </title>
         <meta
           name="title"
-          content="Paya - To improve people's lives through low interest financing services."
+          content="Paya - To improve people&apos;s lives through low interest financing services."
         />
         <meta
           name="description"
@@ -24,7 +24,7 @@ export default function Home() {
         <meta property="og:url" content="https://paya.co.ke/" />
         <meta
           property="og:title"
-          content="Paya - To improve people's lives through low interest financing services."
+          content="Paya - To improve people&apos;s lives through low interest financing services."
         />
         <meta
           property="og:description"
@@ -36,7 +36,7 @@ export default function Home() {
         <meta property="twitter:url" content="https://paya.co.ke/" />
         <meta
           property="twitter:title"
-          content="Paya - To improve people's lives through low interest financing services."
+          content="Paya - To improve people&apos;s lives through low interest financing services."
         />
         <meta
           property="twitter:description"
