@@ -5,16 +5,44 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
         <title>
           Paya - To improve people's lives through low interest financing
           services.
         </title>
         <meta
+          name="title"
+          content="Paya - To improve people's lives through low interest financing services."
+        />
+        <meta
           name="description"
           content="Paya is a financial technology company that was established on the idea that traditional banking services need to be beneficial, simple, and free and accessible to everyone ."
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://paya.co.ke/" />
+        <meta
+          property="og:title"
+          content="Paya - To improve people's lives through low interest financing services."
+        />
+        <meta
+          property="og:description"
+          content="Paya is a financial technology company that was established on the idea that traditional banking services need to be beneficial, simple, and free and accessible to everyone ."
+        />
+        <meta property="og:image" content="/logo.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://paya.co.ke/" />
+        <meta
+          property="twitter:title"
+          content="Paya - To improve people's lives through low interest financing services."
+        />
+        <meta
+          property="twitter:description"
+          content="Paya is a financial technology company that was established on the idea that traditional banking services need to be beneficial, simple, and free and accessible to everyone ."
+        />
+        <meta property="twitter:image" content="/logo.png"></meta>
       </Head>
       <header>
         <nav className="navbar navbar-expand-lg">
