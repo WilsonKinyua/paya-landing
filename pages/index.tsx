@@ -13,7 +13,7 @@ export default function Home() {
         </title>
         <meta
           name="title"
-          content="Paya - To improve people&apos;s lives through low interest financing services."
+          content="Paya - To improve people's lives through low interest financing services."
         />
         <meta
           name="description"
@@ -24,7 +24,7 @@ export default function Home() {
         <meta property="og:url" content="https://paya.co.ke/" />
         <meta
           property="og:title"
-          content="Paya - To improve people&apos;s lives through low interest financing services."
+          content="Paya - To improve people's lives through low interest financing services."
         />
         <meta
           property="og:description"
@@ -36,7 +36,7 @@ export default function Home() {
         <meta property="twitter:url" content="https://paya.co.ke/" />
         <meta
           property="twitter:title"
-          content="Paya - To improve people&apos;s lives through low interest financing services."
+          content="Paya - To improve people's lives through low interest financing services."
         />
         <meta
           property="twitter:description"
@@ -96,8 +96,7 @@ export default function Home() {
               <h1>Better mobile banking for everyday needs</h1>
               <p>
                 Manage and save money in an easy-to-use mobile banking app. Make
-                make payments and borrow money with a trusted financial
-                institution.
+                payments and borrow money with a trusted financial institution.
               </p>
               <Link href="/" className="btn btn-primary mt-2">
                 Get Started
