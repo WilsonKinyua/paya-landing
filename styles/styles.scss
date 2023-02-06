@@ -7,6 +7,9 @@ body {
   background-color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
 p {
   font-size: 14px;
 }
@@ -53,5 +56,45 @@ p {
     height: 40px;
     object-fit: contain;
     padding-bottom: 10px;
+  }
+}
+
+.paya-checking-account {
+  padding-bottom: 40px;
+  .card {
+    border: none;
+    border-top: 4px solid #efb669;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  }
+  h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 16px;
+  }
+  h6 {
+    font-size: 14px;
+    color: #617985;
+  }
+}
+
+footer {
+  background-color: #00273b;
+  padding: 20px 0px;
+  p {
+    color: #fff;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    li {
+      padding-right: 30px;
+      a {
+        color: #d96354;
+      }
+    }
   }
 }

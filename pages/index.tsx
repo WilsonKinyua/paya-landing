@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -23,7 +22,7 @@ export default function Home() {
             <Link className="navbar-brand" href="/">
               <img src="/logo.png" alt="Logo" />
             </Link>
-            <button
+            {/* <button
               className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
@@ -33,7 +32,7 @@ export default function Home() {
               aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon"></span>
-            </button>
+            </button> */}
             <div
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
@@ -71,7 +70,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="col-md-6">
-              <div className="img-wrapper">
+              <div className="img-wrapper mt-3">
                 <img src="/dashboard.png" alt="Landing dashboard" />
               </div>
             </div>
@@ -130,6 +129,66 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="paya-checking-account">
+        <div className="container">
+          <div className="row d-flex justify-content-center text-center">
+            <div className="col-md-12">
+              <h3>Paya Checking Account</h3>
+              <p>
+                Open an account in minutes. Use it for everyday purchases
+                without transfer fees.
+              </p>
+            </div>
+            <div className="col-md-4">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">Paya Checking Account</h5>
+                  <img src="/cardpos.png" alt="cardpos" />
+                  <p>
+                    Use your checking account to make everyday payments, and
+                    save money on transfer fees.
+                  </p>
+                  <h6 className="text-muted">Access</h6>
+                  <h5>Mobile bank services</h5>
+                  <h6 className="text-muted">Fees</h6>
+                  <h5>$0</h5>
+                  <Link href="/" className="btn btn-primary">
+                    Open Account
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <ul>
+                <li>
+                  <Link href="/">Contact us</Link>
+                </li>
+                <li>
+                  <Link href="/">Privacy Policy</Link>
+                </li>
+                <li>
+                  <Link href="/">Terms of Use</Link>
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-12 text-center">
+              <p>
+                © {new Date().getFullYear()}{" "}
+                <Link href="/" className="text-white">
+                  Paya Ventures Limited.
+                </Link>{" "}
+                All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
