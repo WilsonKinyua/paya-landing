@@ -1,0 +1,57 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+p {
+  font-size: 14px;
+}
+
+.navbar-expand-lg {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.btn-primary {
+  background-color: #d96354;
+  border-color: #d96354;
+  color: #fff;
+  border-radius: 40px;
+  padding: 8px 30px;
+  &:hover {
+    background-color: #d96354;
+    border-color: #d96354;
+    color: #fff;
+  }
+}
+
+.landing {
+  background-color: #f8f8f8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.why-us {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h6 {
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    padding-bottom: 10px;
+  }
+}
