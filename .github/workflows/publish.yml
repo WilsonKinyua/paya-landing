@@ -30,7 +30,7 @@ jobs:
         npm run build
 
     - name: Push build to deployment branch
-      uses: ad-m/github-push-action@v0.9.0
+      uses: s0/git-publish-subdir-action@develop
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: deployment
